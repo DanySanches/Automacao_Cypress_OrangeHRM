@@ -7,7 +7,7 @@ Este projeto contém testes automatizados usando o **Cypress** para a aplicaçã
 Antes de começar, certifique-se de ter o seguinte instalado no seu ambiente de desenvolvimento:
 
 - **Node.js**: [Download](https://nodejs.org/)
-- **Cypress**: [Documentação](https://www.cypress.io/docs/)
+- **Cypress**: [Documentação](https://www.cypress.io)
 
 ## 🚀 Como Rodar o Projeto
 
@@ -23,14 +23,9 @@ Clone este repositório e navegue até a pasta do projeto. Em seguida, execute o
 
 Depois de instalar as dependências, rode os testes com o seguinte comando:
 
-  
-
 ```bash
 	npx cypress open
 ```
-
-  
-
 Isso abrirá o Cypress Test Runner, onde você pode escolher qual teste executar.
 
   
@@ -228,16 +223,13 @@ Os relatórios serão salvos na pasta cypress/results.
 
 └── README.md # Documentação do projeto
 
-  
-  
-
 ##Detalhamento dos Arquivos
 
 **cypress/e2e/:**
 
 **login_logout/: ** Testes relacionados ao login e logout do usuário.
 
-- login.cy.js: Contém os testes que validam a   autenticação do usuário.
+- login.cy.js: Contém os testes que validam a autenticação do usuário.
 
 - logout.cy.js: Contém os testes para validar a finalização de sessão.
 
@@ -272,5 +264,5 @@ Arquivo de configuração global para o Cypress, onde você pode definir variáv
  Contém as dependências do projeto, como Cypress e mochawesome, além de scripts para rodar os testes.
 
  **README.md:**
-
+ 
 Documentação do projeto com informações sobre como configurar, rodar os testes, o que é o projeto, como contribuir, etc.
