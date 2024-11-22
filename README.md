@@ -8,6 +8,7 @@ Antes de começar, certifique-se de ter o seguinte instalado no seu ambiente de 
 
 - **Node.js**: [Download](https://nodejs.org/)
 - **Cypress**: [Documentação](https://www.cypress.io)
+- **Mochawesome**:[Documentação](https://www.npmjs.com/package/mochawesome)
 
 ## 🚀 Como Rodar o Projeto
 
